@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <title>Login Page</title>
+    <style>
+        body{
+            font-family:'Courier New', Courier, monospace ;
+            background-color: aliceblue;
+        }
+        .login-box{
+            width: 350px;
+            margin: 110px;
+            padding: 30px;
+            background-color: aqua;
+            text-align: center;
+            border-radius: 15px;
+        }
+        input{
+            width: 100px;
+            padding: 15px;
+            margin: 15px;
+
+        }
+        button{
+            padding: 15px 30px;
+            background-color: blue;
+            color: cadetblue;
+            border: none;
+            cursor:pointer;
+        }
+        #message{
+            font-weight: bold;
+        }
+    </style>
+    <div>
+        <h1 style="text-align: center;">Login</h1>
+        <div class="login-box">
+            <input type="text" id="username" placeholder="Username"><br>
+            <input type="password" id="password" placeholder="Password"><br>
+            <button onclick="login()">Login</button>
+            <p id="message"></p>
+        </div>
+    </div>
+</body>
+</html>
